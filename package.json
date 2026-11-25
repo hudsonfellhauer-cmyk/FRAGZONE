@@ -1,0 +1,16 @@
+{
+  "name": "fragzone",
+  "version": "0.1.0",
+  "description": "FRAGZONE: browser arena frag shooter (three.js)",
+  "private": true,
+  "scripts": {
+    "start": "node server.js",
+    "vendor-three": "node scripts/vendor-three.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "three": "0.128.0"
+  }
+}
